@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+                 <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Time  "
+                    android:textSize="@dimen/activity_horizontal_margin"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  Mon  "
+                    android:textSize="@dimen/activity_horizontal_margin"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  Tues  "
+                    android:textSize="@dimen/activity_horizontal_margin"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  Wed  "
+                    android:textSize="@dimen/activity_horizontal_margin"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  Thurs  "
+                    android:textSize="@dimen/activity_horizontal_margin"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  Fri  "
+                    android:textSize="@dimen/activity_horizontal_margin"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  Sat  "
+                    android:textSize="@dimen/activity_horizontal_margin"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+               
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_weight="0.19"
+            android:adjustViewBounds="true"
+            android:background="@drawable/new_button"
+            android:cropToPadding="true"
+            android:maxHeight="10dp"
+            android:maxWidth="10dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_weight="0.10"
+            android:adjustViewBounds="true"
+            android:background="@drawable/new_button2"
+            android:cropToPadding="true"
+            android:maxHeight="10dp"
+            android:maxWidth="10dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_weight="0.07"
+            android:adjustViewBounds="true"
+            android:background="@drawable/new_button3"
+            android:cropToPadding="true"
+            android:maxHeight="10dp"
+            android:maxWidth="10dp"
+            android:scaleType="fitCenter" />
+
+        <CheckBox
+        android:textColor="@android:color/white"
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Stop Notification" />
+
+        <com.google.ads.AdView android:id="@+id/adView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ads:adUnitId="a1530e0254ae4ab"
+    ads:adSize="BANNER"
+    ads:loadAdOnCreate="true"/>
+    </LinearLayout>
+
+</ScrollView>

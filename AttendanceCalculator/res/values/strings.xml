@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Student Buddy</string>
+    <string name="action_settings">Settings</string>
+    <string name="lectures_attended_">Lectures Bunked:</string>
+    <string name="lecture_completed">Lectures Completed Till Date:</string>
+    <string name="total_lectures">Total Lectures :</string>
+    <string name="radiobutton1">Calculate Present attendance</string>
+    <string name="radiobutton2">Calculate Lectures Required To Be Attended</string>
+    <string name="button">Generate</string>
+    <string name="minimum_required">Minimum Attendance % Required:</string>
+    <string name="edittext" />
+    <string name="textview1"></string>
+    <string name="textview2"></string>
+    <string name="title_activity_result">Result</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_result2"></string>
+    <string name="button2">SAVE</string>
+    <string name="timetable">TIMETABLE</string>
+    <string name="launch">Student Buddy</string>
+
+</resources>
